@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --primary-color: rgb(37, 37, 37);
+}
+
+body {
+  background-color: rgb(221, 221, 221);
+  font-family: sans-serif;
+}
+p {
+  margin: 10px 0 !important;
+  color: var(--primary-color);
+  font-family: cursive;
+}
+
+.login-container {
+  width: 400px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.fa-small {
+  font-size: 16px !important;
+}
+
+.btn-float {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-small {
+  width: 180px;
+}
+.card {
+  background-color: rgb(233, 233, 233);
+}
+h1 {
+  color: white;
+  font-weight: 700;
+  text-shadow: 0 0 4px black;
+}
+h3 {
+  color: rgb(0, 54, 124);
+  font-weight: bold;
+}
+h5 {
+  color: white;
+  text-shadow: 0 0 4px black;
+  font-weight: bold;
+}
+
+span {
+  color: gray;
+}
+.sidenav {
+  background-color: rgb(61, 61, 61);
+  padding: 2rem 0px;
+}
+
+.sidenav li a {
+  color: white;
+}
+.sidenav li a:hover {
+  background-color: black;
+}
+
+th {
+  color: rgb(66, 66, 66);
+}
+tbody * {
+  color: var(--primary-color);
+}
+.input-field * {
+  color: var(--primary-color);
+}
+#status {
+  color: var(--primary-color);
+}
+
+.logout {
+  margin-top: auto;
+}
